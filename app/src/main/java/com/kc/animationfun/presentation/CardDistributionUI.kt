@@ -80,7 +80,7 @@ fun CardDistributionUI() {
                 )
             )
         }) {
-            Text("Distribuer une carte")
+            Text("Distribution")
         }
 
         Spacer(modifier = Modifier.height(32.dp))
@@ -195,7 +195,7 @@ fun AnimatedSlidingCard(
             }
     ) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Carte ${card.id}", color = Color.White, style = MaterialTheme.typography.titleMedium)
+            Text("${card.id}", color = Color.White, style = MaterialTheme.typography.titleMedium)
         }
     }
 }
